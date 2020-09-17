@@ -9,11 +9,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    
     var body: some View {
-        Text("Hello, World!")
-    }
+        VStack {
+   
+    HStack {  Text("Hi my name is Andreas Liebich")
+        Image("andreas")
+            .resizable()
+            .scaledToFit()
+        Circle()    }
+        .padding(.horizontal, 7.0)
+       
 }
-
+}
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
