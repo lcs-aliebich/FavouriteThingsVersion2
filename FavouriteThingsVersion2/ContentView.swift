@@ -17,7 +17,8 @@ struct ContentView: View {
                 
         ScrollView {
         VStack {
-                
+        
+            
         
                 Text(" Im Andreas Liebich and this is me.")
                     .font(.largeTitle)
