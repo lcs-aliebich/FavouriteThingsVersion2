@@ -14,9 +14,19 @@ struct ContentView: View {
     
     var body: some View {
         
-        
+        NavigationView {
+            
+            List {
+                
+        NavigationLink(
+            destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
+      label: {
+                /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+            })
+            
+   
         AboutMeView()
-        
+            }
     }
     
     
@@ -25,7 +35,8 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
         
     }
+}
 }
