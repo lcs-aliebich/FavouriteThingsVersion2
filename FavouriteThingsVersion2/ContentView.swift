@@ -18,14 +18,18 @@ struct ContentView: View {
             
             List {
                 
-        NavigationLink(
-            destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
-      label: {
-                /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/
-            })
-            
+                NavigationLink(destination: AboutMeView()) {
+                    // What shows in the link
+                    Text("About Me")
+                }
+
+                NavigationLink(destination: ThingsImportantToMeView()) {
+                    // What shows in the link
+               Text("Things Important to Me")
+                }
+
    
-        AboutMeView()
+        
             }
     }
     
