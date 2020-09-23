@@ -14,7 +14,7 @@ struct AboutMeView: View {
             VStack {
                 
                 
-                
+           
                 Text(" Im Andreas Liebich and this is me.")
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
@@ -36,5 +36,6 @@ struct AboutMeView: View {
 struct AboutMeView_Previews: PreviewProvider {
     static var previews: some View {
         AboutMeView()
+            .preferredColorScheme(.dark)
     }
 }
