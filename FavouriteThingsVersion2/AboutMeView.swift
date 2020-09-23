@@ -10,14 +10,13 @@ import SwiftUI
 
 struct AboutMeView: View {
     var body: some View {
+        
         ScrollView {
             VStack {
                 
                 
            
-                Text(" Im Andreas Liebich and this is me.")
-                    .font(.largeTitle)
-                    .multilineTextAlignment(.center)
+            
                 
                 Image("andreas")
                     .resizable()
@@ -28,14 +27,16 @@ struct AboutMeView: View {
                 .foregroundColor(Color.blue)
                 .padding(.horizontal, 6.0)
             
-        }
-
+        
     }
-}
+        .navigationBarTitle("A Bit About Me")
+    
+    }
 
 struct AboutMeView_Previews: PreviewProvider {
     static var previews: some View {
         AboutMeView()
             .preferredColorScheme(.dark)
     }
+}
 }

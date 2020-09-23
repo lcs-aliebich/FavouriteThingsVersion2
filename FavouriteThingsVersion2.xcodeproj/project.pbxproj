@@ -68,6 +68,7 @@
 				1F3E36CE2513985600DFFE88 /* Info.plist */,
 				1F3E36C82513985600DFFE88 /* Preview Content */,
 				1FFADA7D251904C8000BA1C6 /* AboutMeView.swift */,
+				1FFADA80251A7C42000BA1C6 /* ThingsImportantToMeView.swift */,
 			);
 			path = FavouriteThingsVersion2;
 			sourceTree = "<group>";
@@ -76,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				1F3E36C92513985600DFFE88 /* Preview Assets.xcassets */,
-				1FFADA80251A7C42000BA1C6 /* ThingsImportantToMeView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -280,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
