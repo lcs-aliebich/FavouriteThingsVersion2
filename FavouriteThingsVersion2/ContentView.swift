@@ -15,17 +15,37 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            
             List {
                 
                 NavigationLink(destination: AboutMeView()) {
-                    // What shows in the link
-                    Text("About Me")
-                }
+                    
+                    HStack {
+                        
+                        Image("andreas")
+                            .resizable()
+                            .frame(width: 50.0, height: 50.0)
+                        Text("About Me")
+                    }
+                        }
+                    
 
                 NavigationLink(destination: ThingsImportantToMeView()) {
-                    // What shows in the link
-               Text("Things Important to Me")
+                    
+                    HStack {
+                        Image("tarana")
+                            .resizable()
+                            .frame(width: 50.0, height: 50.0)
+                        // What shows in the link
+                   
+                        
+                        
+                        
+                        
+                        
+                        Text("Things Important to Me")
+                        
+                    }
+                    
                 }
 
    

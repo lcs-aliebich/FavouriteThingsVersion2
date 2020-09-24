@@ -68,7 +68,6 @@
 				1F3E36CE2513985600DFFE88 /* Info.plist */,
 				1F3E36C82513985600DFFE88 /* Preview Content */,
 				1FFADA7D251904C8000BA1C6 /* AboutMeView.swift */,
-				1FFADA80251A7C42000BA1C6 /* ThingsImportantToMeView.swift */,
 			);
 			path = FavouriteThingsVersion2;
 			sourceTree = "<group>";
@@ -77,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				1F3E36C92513985600DFFE88 /* Preview Assets.xcassets */,
+				1FFADA80251A7C42000BA1C6 /* ThingsImportantToMeView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
